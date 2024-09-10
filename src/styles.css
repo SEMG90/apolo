@@ -1,1 +1,55 @@
-/* You can add global styles to this file, and also import other style files */
+/* css general */
+:root{
+	--bg-body-color: #fff;
+	--bg-social-media-color: #8f8f8f;
+	--bg-social-media-hover-color: #000;
+}
+body{
+    font-family: "Reddit Sans Condensed", sans-serif;
+    background-color: var(--bg-body-color);
+}
+section{
+    padding: 30px 0;
+}
+.bg-test{
+    background-color: red;
+}
+.bg-section-color{
+    background-color: #f0f0f0; 
+}
+.bg-white-color{
+    background-color: #fff;
+}
+.white-color{
+    color: #fff;
+}
+.bg-black-color{
+    background-color: #000;
+}
+.black-color{
+    color: #000;
+}
+.bg-menu-drop-color{
+    background-color: #c9c9c9;
+}
+img{
+    width:100%;
+}
+.font-sm{
+    font-size: 12px;
+}
+.font-md{
+    font-size: 15px;
+}
+
+/* css private */
+/* about component */
+/* social media */
+.about .social-media svg{
+    color: var(--bg-body-color);
+    background-color: var(--bg-social-media-color);
+    padding: 10px;
+}
+.about .social-media svg:hover{
+    background-color: var(--bg-social-media-hover-color);
+}

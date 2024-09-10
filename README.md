@@ -27,4 +27,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 # start time to working on this project
-tuesday 10/9/2024 4:14 PM.
+tuesday 10/9/2024 from 4:14 PM to 5:48 PM.

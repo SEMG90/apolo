@@ -25,9 +25,14 @@
               "src/assets"
             ],
             "styles": [
+              "../apolo/node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "../apolo/node_modules/@fortawesome/fontawesome-free/css/all.min.css",
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "../apolo/node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "../apolo/node_modules/@fortawesome/fontawesome-free/js/all.min.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
