@@ -28,3 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # start time to working on this project
 tuesday 10/9/2024 from 4:14 PM to 5:48 PM.
+thusrday 12/9/2024 from 1:30 PM 

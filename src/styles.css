@@ -53,3 +53,20 @@ img{
 .about .social-media svg:hover{
     background-color: var(--bg-social-media-hover-color);
 }
+
+/* slide main component & slide second component */
+img.img-h{
+    min-height: 250px;
+    max-height: 550px;
+}
+
+/* contact component */
+/* form >> button */
+.contact .form button:hover{
+    background-color: var(--bg-social-media-color);
+    color: var(--bg-social-media-hover-color);
+}
+/* form >> textarea */
+.contact .form textarea{
+    height: 100px;
+}
