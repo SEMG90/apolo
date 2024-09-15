@@ -3,19 +3,21 @@
     <div class="container-fluid">
         <div class="col-12">
             <!-- start navbar custom -->
-            <div class="navbar-custom">
-                <nav class="navbar navbar-dark bg-dark">
+            <div class="navbar-custom col-1 position-absolute end-0">
+                <nav class="navbar">
                     <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <button class="border-0 d-flex align-items-center gap-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="d-block">MENU</span>
+                            <span class="d-block navbar-toggler-icon"></span>
                         </button>
                     </div>
                 </nav>
-                <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
-                    <div class="bg-dark p-4">
-                      <h5 class="text-body-emphasis h4">Collapsed content</h5>
-                      <span class="text-body-secondary">Toggleable via the navbar brand.</span>
-                    </div>
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <ul class="bg-links px-0 text-center">
+                      <li class="py-1"><a href="#about" class="d-block text-black py-1">About</a></li>
+                      <li class="py-1"><a href="#work" class="d-block text-black py-1">Work</a></li>
+                      <li class="py-1"><a href="#contact" class="d-block text-black py-1">Contact</a></li>
+                    </ul>
                 </div>
             </div>
             <!-- end navbar custom -->
